@@ -53,7 +53,7 @@ function(context, args)
         i = 0
         if (g("!EZ_21!"))
         {
-            while (f("!EZ_21") || f("is not"))
+            while (f("!EZ_21!") || f("is not"))
             {
                 d.EZ_21 = e[i++]
                 c()
@@ -96,7 +96,7 @@ function(context, args)
         i = -1
         if (g("!c001!"))
         {
-            while (f("!c001") || f("is not"))
+            while (f("!c001!") || f("is not"))
             {
                 d.c001 = x[++i]
                 d.color_digit = x[i].length
@@ -107,7 +107,7 @@ function(context, args)
         i = -1
         if (g("!c002!"))
         {
-            while (f("!c002") || f("is not"))
+            while (f("!c002!") || f("is not"))
             {
                 d.c002 = x[++i]
                 d.c002_complement = x[(i+4)%8]
@@ -118,7 +118,7 @@ function(context, args)
         i = -1
         if (g("!c003!"))
         {
-            while (f("!c003") || f("is not"))
+            while (f("!c003!") || f("is not"))
             {
                 d.c003 = x[++i]
                 d.c003_triad_1 = x[(i+5)%8]
